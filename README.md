@@ -134,8 +134,5 @@ Ensure you have a github account. Fork this repo to your account by clicking the
     * Task 3
         * <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Test_your_skills:_Object-oriented_JavaScript#oojs_3">Take the instructions</a>
         * <a target="_blank" href="javascript/oojs/tasks/oojs/oojs3-download.html">Edit the code</a>
-    * Task 4
-        * <a target="_blank" href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Test_your_skills:_Object-oriented_JavaScript#oojs_4">Take the instructions</a>
-        * <a target="_blank" href="javascript/oojs/tasks/oojs/oojs4-download.html">Edit the code</a>
 ### Step 3: submit your work
 Share the link to your repo with your Web-Native instructor to assess your work.
