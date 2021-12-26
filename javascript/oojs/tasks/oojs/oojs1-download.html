@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>OOJS: Task 1</title>
     <style>
       p {
@@ -17,13 +17,7 @@
   </head>
 
   <body>
-
-    <section class="preview">
-
-
-
-    </section>
-
+    <section class="preview"></section>
   </body>
   <script>
     function Shape(name, sides, sideLength) {
@@ -33,6 +27,14 @@
     }
 
     // Write your code below here
-  </script>
+    Shape.prototype.calcPerimeter = function () {
+      console.log(this.sides * this.sideLength);
+    };
 
+    let square = new Shape("square", 4, 5);
+    square.calcPerimeter();
+
+    let triangle = new Shape("triangle", 3, 3);
+    triangle.calcPerimeter();
+  </script>
 </html>

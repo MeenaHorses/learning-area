@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>Object basics: Task 2</title>
     <style>
       p {
@@ -17,26 +17,31 @@
   </head>
 
   <body>
-
-    <section class="preview">
-
-
-
-    </section>
-
+    <section class="preview"></section>
   </body>
   <script>
     let bandInfo;
 
     // Add your code here
-
-
+    const favBand = {
+      name: "Coldplay",
+      nationality: "English",
+      genre: "Alternative rock",
+      members: 5,
+      formed: 1996,
+      split: false,
+      albums: [
+        { name: "Parachutes", released: 2000 },
+        { name: "Viva la vida", released: 2008 },
+        { name: "X & Y", released: 2005 },
+      ],
+    };
+    bandInfo = `The band is called ${favBand.name}, an ${favBand.nationality} group active from ${favBand.formed} - present. Their style is ${favBand.genre}, and their first album is called ${favBand.albums[0].name} released in ${favBand.albums[0].released}.`;
     // Don't edit the code below here!
 
-    const section = document.querySelector('section');
-    let para1 = document.createElement('p');
+    const section = document.querySelector("section");
+    let para1 = document.createElement("p");
     para1.textContent = bandInfo;
     section.appendChild(para1);
   </script>
-
 </html>
